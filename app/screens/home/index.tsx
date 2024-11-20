@@ -170,8 +170,6 @@ const MapContent = ({
     <View className="flex-1 justify-center items-center">
       <Stack.Screen
         options={{
-          title: "Welcome",
-          headerTitleAlign: "center",
           headerShown: false,
         }}
       />

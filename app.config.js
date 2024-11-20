@@ -39,13 +39,19 @@ export default {
         projectId: "89be462b-4772-4154-8777-33892cd8c3e2",
       },
     },
+    updates: {
+      url: "https://u.expo.dev/89be462b-4772-4154-8777-33892cd8c3e2",
+    },
+    runtimeVersion: {
+      policy: "appVersion",
+    },
     plugins: [
       "expo-router",
       [
         "@rnmapbox/maps",
         {
           RNMapboxMapsVersion: "11.4.0",
-          RNMapboxMapsDownloadToken: process.env.MAPBOX_SECRET_KEY,   
+          RNMapboxMapsDownloadToken: process.env.MAPBOX_SECRET_KEY,
         },
       ],
       [

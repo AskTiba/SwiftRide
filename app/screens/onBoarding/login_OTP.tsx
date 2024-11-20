@@ -53,7 +53,7 @@ export default function login() {
       <View className="mx-1 py-6">
         <View className="">
           <Text className="text-[#242424] text-[20px] font-semibold leading-[25px] tracking-tighter[-0.45]">
-            Welcome back (userName)
+            Welcome back {`{userName}`}
           </Text>
         </View>
 
