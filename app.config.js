@@ -10,16 +10,15 @@ export default {
     splash: {
       image: "./assets/images/splash.png",
       resizeMode: "contain",
-      backgroundColor: "#ffffff",
+      backgroundColor: "#F8F9FA",
     },
     ios: {
       supportsTablet: true,
-      bundleIdentifier: "SwiftRide",
     },
     android: {
       adaptiveIcon: {
         foregroundImage: "./assets/images/adaptive-icon.png",
-        backgroundColor: "#ffffff",
+        backgroundColor: "#F8F9FA",
       },
       package: "com.codeplayug.frontend_playground",
     },
